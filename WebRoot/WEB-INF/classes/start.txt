@@ -1,0 +1,9 @@
+
+Struts的开始：
+	
+	1、创建一个Struts1的工程,配置一个actionServlet(控制器)
+	2、在WEB/INF下新建一个struts-config.xml
+	3、在web.xml中关联struts-config.xml
+	4、创建Class： FormBean(继承ActionForm类)，在struts-config.xml中配置<form-bean>
+	5、创建Class:Action (继承Action类)，一般覆盖execute（）方法,在struts-config.xml中配置<action>
+	6、调试
